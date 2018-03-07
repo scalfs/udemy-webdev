@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+
+table{
+    table-layout: fixed;
+    border-collapse: collapse; 
+    margin: auto;
+}
+
+td{
+    width: 100px;
+    height: 100px;
+}
+
+tr td:nth-child(2){
+    border-left: thin solid;
+    border-right: thin solid;      
+}
+
+tr:nth-child(2) {
+    border-top: thin solid;
+    border-bottom: thin solid;   
+}
